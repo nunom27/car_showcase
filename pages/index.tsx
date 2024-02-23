@@ -1,16 +1,12 @@
-import Head from 'next/head';
-import { Hero } from '../components';
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-
+import Head from "next/head";
+import { Hero, Layout } from "../components";
 
 export default function Home() {
   return (
-    <div>
-      <main className={inter.className}>
+    <Layout>
+      <main>
         <Hero />
       </main>
-    </div>
+    </Layout>
   );
 }
