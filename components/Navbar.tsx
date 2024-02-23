@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { CustomButton } from ".";
 
 const Navbar = () => {
@@ -11,8 +10,8 @@ const Navbar = () => {
           <Image
             src="/logo.svg"
             alt="logo"
-            width={100}
-            height={100}
+            width={118}
+            height={18}
             className="object-contain"
           />
         </Link>

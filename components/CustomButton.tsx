@@ -1,6 +1,5 @@
 "use cient";
 
-import React from "react";
 import Image from "next/image";
 import { CustomButtonProps } from "@/types";
 

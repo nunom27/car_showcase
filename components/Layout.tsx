@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import { Footer, Navbar } from ".";
 
 const Layout = ({children}: {children: ReactNode}) => {
