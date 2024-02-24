@@ -25,9 +25,15 @@ const Hero = () => {
       </div>
       <div className="hero__image-container">
         <div className="hero__image">
-          <Image src="/porsche-normal.png" alt="hero" fill className="object-contain" />
-          <div className="hero__image-overlay" />
+          <Image
+            src="/porsche-normal.png"
+            alt="hero"
+            fill
+            className="object-contain"
+          />
         </div>
+
+        <div className="absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-cover bg-clip-padding bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden" />
       </div>
     </div>
   );
